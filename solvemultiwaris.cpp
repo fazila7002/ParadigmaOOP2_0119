@@ -30,6 +30,17 @@ public:
     }
 };
 
+class budi : public pekerja, public pelajar {
+public:
+    budi(int pUmur) :
+        pekerja(pUmur),
+        pelajar(pUmur),
+        orang(pUmur) // wajib karena pelajar virtual
+    {
+        cout << "Budi dibuat" << endl;
+    }
+};
+
 int main() {
     return 0;
 }
