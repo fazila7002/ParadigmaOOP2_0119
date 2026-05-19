@@ -15,6 +15,13 @@ public:
     }
 };
 
+class baseClass final {
+public:
+    virtual void perkenalan() {
+        cout << "Hallo saya Function dari base class" << endl;
+    }
+};
+
 int main() {
     return 0;
 }
