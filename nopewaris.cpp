@@ -8,6 +8,13 @@ public:
     }
 };
 
+class derivedClass : public baseClass1 {
+public:
+    void perkenalan() override {
+        cout << "Hallo saya Function dari derived Class" << endl;
+    }
+};
+
 int main() {
     return 0;
 }
