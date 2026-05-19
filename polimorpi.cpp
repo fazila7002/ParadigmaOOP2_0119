@@ -6,16 +6,16 @@ public:
     virtual void pesan() = 0;
 };
 
-class joko : public seseorang {
+class joko : public seseorang  {
 public:
-    void pesan() {
+    void pesan() override {
         cout << "Pesan dari joko" << endl;
     }
 };
 
-class lia : public seseorang {
+class lia : public seseorang  {
 public:
-    void pesan() {
+    void pesan() override {
         cout << "Pesan dari lia" << endl;
     }
 };
