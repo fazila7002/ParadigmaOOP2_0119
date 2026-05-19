@@ -23,5 +23,10 @@ public:
 };
 
 int main() {
+
+ derivedClass obj;
+    obj.perkenalan();
+
+
     return 0;
 }
