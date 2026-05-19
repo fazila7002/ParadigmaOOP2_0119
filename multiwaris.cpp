@@ -29,7 +29,7 @@ public:
     }
 };
 
-class budi : virtual public pekerja, public pelajar {
+class budi : public pekerja, public pelajar {
 public:
     budi(int pUmur) :
         pekerja(pUmur),
@@ -42,6 +42,6 @@ public:
 
 
 int main() {
-    
+    budi a(12);
     return 0;
 }
